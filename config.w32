@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("dbfiller", "for dbfiller support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("dbfiller", "enable dbfiller support", "no");
+
+if (PHP_DBFILLER != "no") {
+	EXTENSION("dbfiller", "dbfiller.c");
+}
+

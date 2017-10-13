@@ -1,0 +1,686 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AWK	Makefile	/^AWK = gawk$/;"	m
+CC	Makefile	/^CC = cc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS_CLEAN	Makefile	/^CFLAGS_CLEAN = $(CFLAGS)$/;"	m
+COMMON_FLAGS	Makefile	/^COMMON_FLAGS = $(DEFS) $(INCLUDES) $(EXTRA_INCLUDES) $(CPPFLAGS) $(PHP_FRAMEWORKPATH)$/;"	m
+COMPILE_DL_DBFILLER	config.h	5;"	d
+CONFIGURE_COMMAND	Makefile	/^CONFIGURE_COMMAND = '.\/configure' '--with-php-config=\/usr\/local\/php\/bin\/php-config'$/;"	m
+CONFIGURE_OPTIONS	Makefile	/^CONFIGURE_OPTIONS = '--with-php-config=\/usr\/local\/php\/bin\/php-config'$/;"	m
+CPP	Makefile	/^CPP = cc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = -DHAVE_CONFIG_H$/;"	m
+CUR_DIR	run-tests.php	/^$CUR_DIR = getcwd();$/;"	v
+CXX	Makefile	/^CXX =$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS =$/;"	m
+CXXFLAGS_CLEAN	Makefile	/^CXXFLAGS_CLEAN = $(CXXFLAGS)$/;"	m
+DBFILLER_G	php_dbfiller.h	70;"	d
+DBFILLER_G	php_dbfiller.h	72;"	d
+DEFS	Makefile	/^DEFS = -DPHP_ATOM_INC -I$(top_builddir)\/include -I$(top_builddir)\/main -I$(top_srcdir)$/;"	m
+DETAILED	run-tests.php	/^					$DETAILED = true;$/;"	v
+DETAILED	run-tests.php	/^	$DETAILED = 0;$/;"	v
+DETAILED	run-tests.php	/^	$DETAILED = getenv('TEST_PHP_DETAILED');$/;"	v
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EXTENSION_DIR	Makefile	/^EXTENSION_DIR = \/usr\/local\/php\/lib\/php\/extensions\/no-debug-non-zts-20100525$/;"	m
+EXTRA_LDFLAGS	Makefile	/^EXTRA_LDFLAGS =$/;"	m
+EXTRA_LIBS	Makefile	/^EXTRA_LIBS =$/;"	m
+FILE_BINARY	run-tests.php	/^		define('FILE_BINARY', 0);$/;"	d
+HAVE_DLFCN_H	config.h	8;"	d
+HAVE_INTTYPES_H	config.h	11;"	d
+HAVE_MEMORY_H	config.h	14;"	d
+HAVE_STDINT_H	config.h	17;"	d
+HAVE_STDLIB_H	config.h	20;"	d
+HAVE_STRINGS_H	config.h	23;"	d
+HAVE_STRING_H	config.h	26;"	d
+HAVE_SYS_STAT_H	config.h	29;"	d
+HAVE_SYS_TYPES_H	config.h	32;"	d
+HAVE_UNISTD_H	config.h	35;"	d
+INCLUDES	Makefile	/^INCLUDES = -I\/usr\/local\/php\/include\/php -L\/usr\/local\/mysql\/lib -I\/usr\/local\/mysql\/include -lmysqlclient  -I\/usr\/local\/php\/include\/php\/main -I\/usr\/local\/php\/include\/php\/TSRM -I\/usr\/local\/php\/include\/php\/Zend -I\/usr\/local\/php\/include\/php\/ext -I\/usr\/local\/php\/include\/php\/ext\/date\/lib$/;"	m
+INSTALL	Makefile	/^INSTALL = $(top_srcdir)\/build\/shtool install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = $(INSTALL) -m 644$/;"	m
+INSTALL_HEADERS	Makefile	/^INSTALL_HEADERS =$/;"	m
+IN_REDIRECT	run-tests.php	/^			$IN_REDIRECT = false;$/;"	v
+IN_REDIRECT	run-tests.php	/^		$IN_REDIRECT = eval($section_text['REDIRECTTEST']);$/;"	v
+JUNIT	run-tests.php	/^		$JUNIT = FALSE;$/;"	v
+JUNIT	run-tests.php	/^		$JUNIT = array($/;"	v
+JUNIT	run-tests.php	/^	$JUNIT = getenv('TEST_PHP_JUNIT');$/;"	v
+LDFLAGS	Makefile	/^LDFLAGS =$/;"	m
+LFLAGS	Makefile	/^LFLAGS =$/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+PACKAGE_BUGREPORT	config.h	41;"	d
+PACKAGE_NAME	config.h	44;"	d
+PACKAGE_STRING	config.h	47;"	d
+PACKAGE_TARNAME	config.h	50;"	d
+PACKAGE_URL	config.h	53;"	d
+PACKAGE_VERSION	config.h	56;"	d
+PHP_DBFILLER_API	php_dbfiller.h	30;"	d
+PHP_DBFILLER_API	php_dbfiller.h	32;"	d
+PHP_DBFILLER_API	php_dbfiller.h	34;"	d
+PHP_DBFILLER_H	php_dbfiller.h	22;"	d
+PHP_DBFILLER_VERSION	php_dbfiller.h	27;"	d
+PHP_DEPRECATED_DIRECTIVES_REGEX	Makefile	/^PHP_DEPRECATED_DIRECTIVES_REGEX = '^(magic_quotes_(gpc|runtime|sybase)?|(zend_)?extension(_debug)?(_ts)?)[\\t\\ ]*='$/;"	m
+PHP_EXECUTABLE	Makefile	/^PHP_EXECUTABLE = \/usr\/local\/php\/bin\/php$/;"	m
+PHP_FAILED_TESTS	run-tests.php	/^$PHP_FAILED_TESTS = array('BORKED' => array(), 'FAILED' => array(), 'WARNED' => array(), 'LEAKED' => array(), 'XFAILED' => array());$/;"	v
+PHP_MAJOR_VERSION	run-tests.php	/^	define("PHP_MAJOR_VERSION", $major);$/;"	d
+PHP_METHOD	dbfiller.c	/^PHP_METHOD(dbfiller, connect) {$/;"	f
+PHP_METHOD	dbfiller.c	/^PHP_METHOD(dbfiller,DbFiller)$/;"	f
+PHP_METHOD	dbfiller.c	/^PHP_METHOD(dbfiller,build) {$/;"	f
+PHP_METHOD	dbfiller.c	/^PHP_METHOD(dbfiller,run) {$/;"	f
+PHP_METHOD	dbfiller_1.c	/^PHP_METHOD(dbfiller, connect) {$/;"	f
+PHP_METHOD	dbfiller_1.c	/^PHP_METHOD(dbfiller,DbFiller)$/;"	f
+PHP_METHOD	dbfiller_1.c	/^PHP_METHOD(dbfiller,build) {$/;"	f
+PHP_METHOD	dbfiller_2.c	/^PHP_METHOD(dbfiller, connect) {$/;"	f
+PHP_METHOD	dbfiller_2.c	/^PHP_METHOD(dbfiller,DbFiller)$/;"	f
+PHP_METHOD	dbfiller_2.c	/^PHP_METHOD(dbfiller,build) {$/;"	f
+PHP_MINFO_FUNCTION	dbfiller.c	/^PHP_MINFO_FUNCTION(dbfiller)$/;"	f
+PHP_MINFO_FUNCTION	dbfiller_1.c	/^PHP_MINFO_FUNCTION(dbfiller)$/;"	f
+PHP_MINFO_FUNCTION	dbfiller_2.c	/^PHP_MINFO_FUNCTION(dbfiller)$/;"	f
+PHP_MODULES	Makefile	/^PHP_MODULES = $(phplibdir)\/dbfiller.la$/;"	m
+PHP_MSHUTDOWN_FUNCTION	dbfiller.c	/^PHP_MSHUTDOWN_FUNCTION(dbfiller)$/;"	f
+PHP_MSHUTDOWN_FUNCTION	dbfiller_1.c	/^PHP_MSHUTDOWN_FUNCTION(dbfiller)$/;"	f
+PHP_MSHUTDOWN_FUNCTION	dbfiller_2.c	/^PHP_MSHUTDOWN_FUNCTION(dbfiller)$/;"	f
+PHP_MY_RESULT_NAME	dbfiller.c	39;"	d	file:
+PHP_MY_RESULT_NAME	dbfiller_1.c	36;"	d	file:
+PHP_MY_RESULT_NAME	dbfiller_2.c	36;"	d	file:
+PHP_MY_RES_NAME	dbfiller.c	38;"	d	file:
+PHP_MY_RES_NAME	dbfiller_1.c	35;"	d	file:
+PHP_MY_RES_NAME	dbfiller_2.c	35;"	d	file:
+PHP_PECL_EXTENSION	Makefile	/^PHP_PECL_EXTENSION = dbfiller$/;"	m
+PHP_QA_EMAIL	run-tests.php	/^define('PHP_QA_EMAIL', 'qa-reports@lists.php.net');$/;"	d
+PHP_RINIT_FUNCTION	dbfiller.c	/^PHP_RINIT_FUNCTION(dbfiller)$/;"	f
+PHP_RINIT_FUNCTION	dbfiller_1.c	/^PHP_RINIT_FUNCTION(dbfiller)$/;"	f
+PHP_RINIT_FUNCTION	dbfiller_2.c	/^PHP_RINIT_FUNCTION(dbfiller)$/;"	f
+PHP_RSHUTDOWN_FUNCTION	dbfiller.c	/^PHP_RSHUTDOWN_FUNCTION(dbfiller)$/;"	f
+PHP_RSHUTDOWN_FUNCTION	dbfiller_1.c	/^PHP_RSHUTDOWN_FUNCTION(dbfiller)$/;"	f
+PHP_RSHUTDOWN_FUNCTION	dbfiller_2.c	/^PHP_RSHUTDOWN_FUNCTION(dbfiller)$/;"	f
+PHP_TEST_SETTINGS	Makefile	/^PHP_TEST_SETTINGS = -d 'open_basedir=' -d 'output_buffering=0' -d 'memory_limit=-1'$/;"	m
+PHP_TEST_SHARED_EXTENSIONS	Makefile	/^PHP_TEST_SHARED_EXTENSIONS =  ` \\$/;"	m
+PHP_VERSION_ID	run-tests.php	/^	define("PHP_VERSION_ID", "{$major}0{$minor}$bug");$/;"	d
+PHP_ZEND_EX	Makefile	/^PHP_ZEND_EX =$/;"	m
+QA_REPORTS_PAGE	run-tests.php	/^define('QA_REPORTS_PAGE', 'http:\/\/qa.php.net\/reports');$/;"	d
+QA_SUBMISSION_PAGE	run-tests.php	/^define('QA_SUBMISSION_PAGE', 'http:\/\/qa.php.net\/buildtest-process.php');$/;"	d
+RE2C	Makefile	/^RE2C = re2c$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SHARED_LIBTOOL	Makefile	/^SHARED_LIBTOOL =$/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHLIB_DL_SUFFIX_NAME	Makefile	/^SHLIB_DL_SUFFIX_NAME = so$/;"	m
+SHLIB_SUFFIX_NAME	Makefile	/^SHLIB_SUFFIX_NAME = so$/;"	m
+SHOW_ONLY_GROUPS	run-tests.php	/^					$SHOW_ONLY_GROUPS = explode(",", $argv[++$i]);;$/;"	v
+SHOW_ONLY_GROUPS	run-tests.php	/^	$SHOW_ONLY_GROUPS = array();$/;"	v
+SHOW_ONLY_GROUPS	run-tests.php	/^	$SHOW_ONLY_GROUPS = explode(",", getenv('SHOW_ONLY_GROUPS'));$/;"	v
+STDC_HEADERS	config.h	59;"	d
+TESTED_PHP_VERSION	run-tests.php	/^	define('TESTED_PHP_VERSION', `$php -n -r "echo PHP_VERSION;"`);$/;"	d
+ZEND_EXT_TYPE	Makefile	/^ZEND_EXT_TYPE = zend_extension$/;"	m
+ZEND_GET_MODULE	dbfiller.c	/^ZEND_GET_MODULE(dbfiller)$/;"	f
+ZEND_GET_MODULE	dbfiller_1.c	/^ZEND_GET_MODULE(dbfiller)$/;"	f
+ZEND_GET_MODULE	dbfiller_2.c	/^ZEND_GET_MODULE(dbfiller)$/;"	f
+__DIR__	run-tests.php	/^	define('__DIR__', realpath(dirname(__FILE__)));$/;"	d
+_kval	dbfiller.c	/^typedef struct _kval {$/;"	s	file:
+_php_mysql_conn	dbfiller.c	/^typedef struct _php_mysql_conn {$/;"	s	file:
+_php_mysql_conn	dbfiller_2.c	/^typedef struct _php_mysql_conn {$/;"	s	file:
+_type_param_entry	dbfiller.c	/^typedef struct _type_param_entry{$/;"	s	file:
+a	run-tests.php	/^	$a = test_name($a);$/;"	v
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+active_result_id	dbfiller.c	/^    int active_result_id;$/;"	m	struct:_php_mysql_conn	file:
+active_result_id	dbfiller_2.c	/^	int active_result_id;$/;"	m	struct:_php_mysql_conn	file:
+aftersql	dbfiller.c	/^char *aftersql[1024*1023] = "VALUES";$/;"	v
+all_targets	Makefile	/^all_targets = $(PHP_MODULES) $(PHP_ZEND_EX)$/;"	m
+argc	run-tests.php	/^	$argc = count($argv);$/;"	v
+args	run-tests.php	/^	$args = isset($section_text['ARGS']) ? ' -- ' . $section_text['ARGS'] : '';$/;"	v
+argv	run-tests.php	/^		$argv = array(__FILE__);$/;"	v
+argv	run-tests.php	/^	$argv = array_merge($argv, explode(' ', getenv('TEST_PHP_ARGS')));$/;"	v
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+autoconf	run-tests.php	/^					$autoconf = shell_exec('autoconf --version');$/;"	v
+autoconf	run-tests.php	/^					$autoconf = shell_exec(getenv('PHP_AUTOCONF') . ' --version');$/;"	v
+b	run-tests.php	/^	$b = test_name($b);$/;"	v
+beforesql	dbfiller.c	/^char *beforesql[1024] = "INSERT INTO ";$/;"	v
+bin_env	run-tests.php	/^	$bin_env = array();$/;"	v
+bork_info	run-tests.php	/^					$bork_info = "could not load --FILE_EXTERNAL-- " . dirname($file) . '\/' . trim($section_text['FILE_EXTERNAL']);$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "Can't redirect a test from within a redirected test";$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "duplicated $section section";$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "missing section --EXPECT--, --EXPECTF-- or --EXPECTREGEX--";$/;"	v
+bork_info	run-tests.php	/^				$bork_info = "missing section --FILE--";$/;"	v
+bork_info	run-tests.php	/^			$bork_info = "Redirect info must contain exactly one TEST string to be used as redirect directory.";$/;"	v
+bork_info	run-tests.php	/^			$bork_info = "cannot read test";$/;"	v
+bork_info	run-tests.php	/^		$bork_info = "Redirected test did not contain redirection info";$/;"	v
+bork_info	run-tests.php	/^		$bork_info = "empty test [$file]";$/;"	v
+bork_info	run-tests.php	/^		$bork_info = "tests must start with --TEST-- [$file]";$/;"	v
+bork_info	run-tests.php	/^	$bork_info = '';$/;"	v
+borked	run-tests.php	/^					$borked = true;$/;"	v
+borked	run-tests.php	/^				$borked    = true;$/;"	v
+borked	run-tests.php	/^				$borked = false;$/;"	v
+borked	run-tests.php	/^				$borked = true;$/;"	v
+borked	run-tests.php	/^			$borked = true;$/;"	v
+borked	run-tests.php	/^		$borked = true;$/;"	v
+borked	run-tests.php	/^	$borked = false;$/;"	v
+br	dbfiller.php	/^$br = (php_sapi_name() == "cli")? "":"<br>";$/;"	v
+bug	run-tests.php	/^		$bug = "0$bug";$/;"	v
+bug	run-tests.php	/^	$bug = (int)$bug; \/\/ Many distros make up their own versions$/;"	v
+builddir	Makefile	/^builddir = \/root\/php54\/ext\/dbfiller$/;"	m
+c1	run-tests.php	/^			$c1 = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1+1, $idx2, $cnt1, $cnt2, 10);$/;"	v
+c2	run-tests.php	/^			$c2 = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $idx2+1, $cnt1,  $cnt2, 10);$/;"	v
+cc_status	run-tests.php	/^				$cc_status = 0;$/;"	v
+cfg	run-tests.php	/^$cfg = array();$/;"	v
+cfgfiles	run-tests.php	/^$cfgfiles = array('skip', 'php', 'clean', 'out', 'diff', 'exp');$/;"	v
+cfgtypes	run-tests.php	/^$cfgtypes = array('show', 'keep');$/;"	v
+clean_params	run-tests.php	/^				$clean_params = array();$/;"	v
+cmd	run-tests.php	/^			$cmd = "valgrind -q --tool=memcheck --trace-children=yes --log-file-exactly=$memcheck_filename $cmd";$/;"	v
+cmd	run-tests.php	/^			$cmd = "valgrind -q --tool=memcheck --trace-children=yes --log-file=$memcheck_filename $cmd";$/;"	v
+cmd	run-tests.php	/^		$cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" $args 2>&1";$/;"	v
+cmd	run-tests.php	/^		$cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" 2>&1 < \\"$tmp_post\\"";$/;"	v
+cmd	run-tests.php	/^        $cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" 2>&1 < \\"$tmp_post\\"";$/;"	v
+code	run-tests.php	/^	$code = proc_close($proc);$/;"	v
+comp_line	run-tests.php	/^function comp_line($l1, $l2, $is_reg)$/;"	f
+compiler	run-tests.php	/^						$compiler = shell_exec(getenv('CC') . " $flag 2>&1");$/;"	v
+compression	run-tests.php	/^$compression = 0;$/;"	v
+compute_summary	run-tests.php	/^function compute_summary()$/;"	f
+conf_passed	run-tests.php	/^					$conf_passed = $argv[++$i];$/;"	v
+conf_passed	run-tests.php	/^$conf_passed = null;$/;"	v
+conn	dbfiller.c	/^    MYSQL conn;$/;"	m	struct:_php_mysql_conn	file:
+conn	dbfiller_2.c	/^	MYSQL conn;$/;"	m	struct:_php_mysql_conn	file:
+conn	test.php	/^$conn = $db->connect('hichat');$/;"	v
+content_length	run-tests.php	/^		$content_length = strlen($post);$/;"	v
+content_length	run-tests.php	/^        $content_length = strlen($post);$/;"	v
+copy_file	run-tests.php	/^		$copy_file     = $temp_dir . DIRECTORY_SEPARATOR . basename(is_array($file) ? $file[1] : $file) . '.phps';$/;"	v
+count_array_diff	run-tests.php	/^function count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $idx2, $cnt1, $cnt2, $steps)$/;"	f
+cwd	run-tests.php	/^$cwd = getcwd();$/;"	v
+data	run-tests.php	/^	$data = "php_test_data=" . urlencode(base64_encode(str_replace("\\00", '[0x0]', $data)));$/;"	v
+data	run-tests.php	/^	$data = '';$/;"	v
+data_length	run-tests.php	/^	$data_length = strlen($data);$/;"	v
+db	test.php	/^$db = new DbFiller('127.0.0.1',3306,'root','root');$/;"	v
+dbfiller	php_dbfiller.h	/^PHP_MINFO_FUNCTION(dbfiller);$/;"	v
+dbfiller	php_dbfiller.h	/^PHP_MINIT_FUNCTION(dbfiller);$/;"	v
+dbfiller	php_dbfiller.h	/^PHP_MSHUTDOWN_FUNCTION(dbfiller);$/;"	v
+dbfiller	php_dbfiller.h	/^PHP_RINIT_FUNCTION(dbfiller);$/;"	v
+dbfiller	php_dbfiller.h	/^PHP_RSHUTDOWN_FUNCTION(dbfiller);$/;"	v
+dbfiller_ce	dbfiller.c	/^zend_class_entry * dbfiller_ce;$/;"	v
+dbfiller_ce	dbfiller_1.c	/^zend_class_entry * dbfiller_ce;$/;"	v
+dbfiller_ce	dbfiller_2.c	/^zend_class_entry * dbfiller_ce;$/;"	v
+dbfiller_functions	dbfiller.c	/^const zend_function_entry dbfiller_functions[] = {$/;"	v
+dbfiller_functions	dbfiller_1.c	/^const zend_function_entry dbfiller_functions[] = {$/;"	v
+dbfiller_functions	dbfiller_2.c	/^const zend_function_entry dbfiller_functions[] = {$/;"	v
+dbfiller_module_entry	dbfiller.c	/^zend_module_entry dbfiller_module_entry = {$/;"	v
+dbfiller_module_entry	dbfiller_1.c	/^zend_module_entry dbfiller_module_entry = {$/;"	v
+dbfiller_module_entry	dbfiller_2.c	/^zend_module_entry dbfiller_module_entry = {$/;"	v
+diff	run-tests.php	/^			$diff = "# original source file: $shortname\\n" . $diff;$/;"	v
+diff	run-tests.php	/^			$diff = "&nbsp;";$/;"	v
+diff	run-tests.php	/^			$diff = "<a href='$url'>diff<\/a>";$/;"	v
+diff	run-tests.php	/^		$diff = generate_diff($wanted, $wanted_re, $output);$/;"	v
+diff	run-tests.php	/^	$diff = array();$/;"	v
+diff	run-tests.php	/^	$diff = empty($diff) ? '' : preg_replace('\/\\e\/', '<esc>', $diff);$/;"	v
+diff	run-tests.php	/^	$diff = generate_array_diff($r, $o, !is_null($wanted_re), $w);$/;"	v
+diff_filename	run-tests.php	/^	$diff_filename     = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'diff';$/;"	v
+e	run-tests.php	/^			$e = explode('=', trim($e), 2);$/;"	v
+e	run-tests.php	/^		$e = null;$/;"	v
+end	run-tests.php	/^						$end = $start = $length;$/;"	v
+end	run-tests.php	/^					$end = strpos($wanted_re, $r, $start+2);$/;"	v
+end_time	run-tests.php	/^		$end_time = time();$/;"	v
+end_time	run-tests.php	/^$end_time = time();$/;"	v
+environment	run-tests.php	/^$environment = isset($_ENV) ? $_ENV : array();$/;"	v
+eq	run-tests.php	/^			$eq = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $ofs2, $cnt1, $cnt2, $st);$/;"	v
+eq	run-tests.php	/^			$eq = @count_array_diff($ar1, $ar2, $is_reg, $w, $ofs1, $idx2, $cnt1, $cnt2, $st);$/;"	v
+eq1	run-tests.php	/^				$eq1 = $eq;$/;"	v
+eq1	run-tests.php	/^		$eq1 = 0;$/;"	v
+eq2	run-tests.php	/^				$eq2 = $eq;$/;"	v
+eq2	run-tests.php	/^		$eq2 = 0;$/;"	v
+equal	run-tests.php	/^	$equal = 0;$/;"	v
+error	run-tests.php	/^function error($message)$/;"	f
+error_report	run-tests.php	/^function error_report($testname, $logname, $tested)$/;"	f
+escaped_details	run-tests.php	/^	$escaped_details = htmlspecialchars($details, ENT_QUOTES, 'UTF-8');$/;"	v
+escaped_details	run-tests.php	/^	$escaped_details = preg_replace_callback('\/[\\0-\\x08\\x0B\\x0C\\x0E-\\x1F]\/', function ($c) {$/;"	v
+escaped_message	run-tests.php	/^	$escaped_message = htmlspecialchars($message, ENT_QUOTES, 'UTF-8');$/;"	v
+escaped_test_name	run-tests.php	/^    $escaped_test_name = basename($file_name) . ' - ' . htmlspecialchars($test_name, ENT_QUOTES);$/;"	v
+exec_prefix	Makefile	/^exec_prefix = $(prefix)$/;"	m
+exp_filename	run-tests.php	/^	$exp_filename      = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'exp';$/;"	v
+ext_dir	run-tests.php	/^		$ext_dir=`$php -r 'echo ini_get("extension_dir");'`;$/;"	v
+extensions	run-tests.php	/^		$extensions = preg_split("\/[\\n\\r]+\/", trim($section_text['EXTENSIONS']));$/;"	v
+extra	run-tests.php	/^				$extra = "skipif";$/;"	v
+extra	run-tests.php	/^				$extra = substr(PHP_OS, 0, 3) !== "WIN" ?$/;"	v
+extra	run-tests.php	/^			$extra = "&nbsp;";$/;"	v
+extra	run-tests.php	/^			$extra = "<a href='$url'>$extra<\/a>";$/;"	v
+extra	run-tests.php	/^			$extra = substr(PHP_OS, 0, 3) !== "WIN" ?$/;"	v
+exts_skipped	run-tests.php	/^$exts_skipped = 0;$/;"	v
+exts_tested	run-tests.php	/^$exts_tested = count($exts_to_test);$/;"	v
+exts_to_test	run-tests.php	/^	$exts_to_test = explode(',',`$php $pass_options $info_params "$info_file"`);$/;"	v
+exts_to_test	run-tests.php	/^$exts_to_test = array();$/;"	v
+failed_headers	run-tests.php	/^				$failed_headers = true;$/;"	v
+failed_headers	run-tests.php	/^	$failed_headers = false;$/;"	v
+failed_test_summary	run-tests.php	/^	$failed_test_summary = '';$/;"	v
+failed_tests_data	run-tests.php	/^			$failed_tests_data = '';$/;"	v
+failed_tests_file	run-tests.php	/^					$failed_tests_file = fopen($argv[++$i], 'a+t');$/;"	v
+failed_tests_file	run-tests.php	/^					$failed_tests_file = fopen($argv[++$i], 'w+t');$/;"	v
+failed_tests_file	run-tests.php	/^$failed_tests_file= false;$/;"	v
+fds	test.php	/^$fds = array('iUserId'=>array('type'=>'increment','step'=>1),'sNickName'=>array('type'=>'string','length'=>10),'sNickName'=>array('type'=>'int','min'=>10,'max'=>100000));$/;"	v
+file	run-tests.php	/^			$file = $org_file[0];$/;"	v
+file	run-tests.php	/^		$file = $file[0];$/;"	v
+find_files	run-tests.php	/^function find_files($dir, $is_ext_dir = false, $ignore = false)$/;"	f
+flags	run-tests.php	/^				$flags = array('-v', '-V', '--version');$/;"	v
+fp	run-tests.php	/^		$fp = fopen("php:\/\/stdin", "r+");$/;"	v
+fp	run-tests.php	/^	$fp = fopen($file, "rb") or error("Cannot open test file: $file");$/;"	v
+fs	run-tests.php	/^	$fs = fsockopen($host, $port, $errno, $errstr, 10);$/;"	v
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+function	dbfiller.php	/^$function = 'confirm_' . $module . '_compiled';$/;"	v
+functions	dbfiller.php	/^$functions = get_extension_funcs($module);$/;"	v
+generate_array_diff	run-tests.php	/^function generate_array_diff($ar1, $ar2, $is_reg, $w)$/;"	f
+generate_diff	run-tests.php	/^function generate_diff($wanted, $wanted_re, $output)$/;"	f
+getRandomStr	dbfiller.c	/^char *getRandomStr(int n){$/;"	f
+get_summary	run-tests.php	/^function get_summary($show_ext_summary, $show_html)$/;"	f
+headers	run-tests.php	/^				$headers = $org_headers[$k];$/;"	v
+headers	run-tests.php	/^		$headers = array();$/;"	v
+headers	run-tests.php	/^	$headers = "";$/;"	v
+host	run-tests.php	/^		$host = $proxy['host'];$/;"	v
+host	run-tests.php	/^		$host = $url_bits['host'];$/;"	v
+html_file	run-tests.php	/^					$html_file = fopen($argv[++$i], 'wt');$/;"	v
+html_file	run-tests.php	/^$html_file = null;$/;"	v
+html_output	run-tests.php	/^					$html_output = is_resource($html_file);$/;"	v
+html_output	run-tests.php	/^$html_output = false;$/;"	v
+idx1	run-tests.php	/^	$idx1 = 0; $ofs1 = 0; $cnt1 = @count($ar1);$/;"	v
+idx2	run-tests.php	/^	$idx2 = 0; $ofs2 = 0; $cnt2 = @count($ar2);$/;"	v
+ignored_by_ext	run-tests.php	/^$ignored_by_ext = 0;$/;"	v
+index	run-tests.php	/^			$index = "# $name[1]: $name[0]";$/;"	v
+index	run-tests.php	/^			$index = "# $redir_tested: $name";$/;"	v
+index	run-tests.php	/^			$index = $name;$/;"	v
+info	run-tests.php	/^					$info = " (info: $m[1])";$/;"	v
+info	run-tests.php	/^					$info = " (warn: $m[1])";$/;"	v
+info	run-tests.php	/^					$info = " (warn: XFAIL section but test passes)";$/;"	v
+info	run-tests.php	/^			$info = '  XFAIL REASON: ' . rtrim($section_text['XFAIL']);$/;"	v
+info	run-tests.php	/^	$info = '';$/;"	v
+info_file	run-tests.php	/^	$info_file = __DIR__ . '\/run-test-info.php';$/;"	v
+info_params	run-tests.php	/^	$info_params = array();$/;"	v
+info_params_ex	run-tests.php	/^	$info_params_ex = array($/;"	v
+ini_overwrites	run-tests.php	/^			$ini_overwrites = array_merge($ini_overwrites, $ini_overwrites_ex);$/;"	v
+ini_overwrites	run-tests.php	/^$ini_overwrites = array($/;"	v
+ini_settings	run-tests.php	/^	$ini_settings = $settings;$/;"	v
+ini_settings	run-tests.php	/^	$ini_settings = array();$/;"	v
+install_targets	Makefile	/^install_targets = install-modules install-headers$/;"	m
+is_switch	run-tests.php	/^								$is_switch = false;$/;"	v
+is_switch	run-tests.php	/^				$is_switch = true;$/;"	v
+is_switch	run-tests.php	/^			$is_switch = true;$/;"	v
+is_switch	run-tests.php	/^		$is_switch = false;$/;"	v
+junit_enabled	run-tests.php	/^function junit_enabled() {$/;"	f
+junit_finish_timer	run-tests.php	/^function junit_finish_timer($file_name) {$/;"	f
+junit_get_suite_xml	run-tests.php	/^function junit_get_suite_xml($suite_name = '') {$/;"	f
+junit_get_suitename_for	run-tests.php	/^function junit_get_suitename_for($file_name) {$/;"	f
+junit_get_timer	run-tests.php	/^function junit_get_timer($file_name) {$/;"	f
+junit_init	run-tests.php	/^function junit_init() {$/;"	f
+junit_init_suite	run-tests.php	/^function junit_init_suite($suite_name) {$/;"	f
+junit_mark_test_as	run-tests.php	/^function junit_mark_test_as($type, $file_name, $test_name, $time = null, $message = '', $details = '') {$/;"	f
+junit_path_to_classname	run-tests.php	/^function junit_path_to_classname($file_name) {$/;"	f
+junit_save_xml	run-tests.php	/^function junit_save_xml() {$/;"	f
+junit_start_timer	run-tests.php	/^function junit_start_timer($file_name) {$/;"	f
+junit_suite_record	run-tests.php	/^function junit_suite_record($suite, $param, $value = 1) {$/;"	f
+just_save_results	run-tests.php	/^					$just_save_results = true;$/;"	v
+just_save_results	run-tests.php	/^		$just_save_results = (strtolower($user_input[0]) == 's');$/;"	v
+just_save_results	run-tests.php	/^$just_save_results = false;$/;"	v
+k1	run-tests.php	/^			$k1 = next($old1) ? key($old1) : null;$/;"	v
+k2	run-tests.php	/^			$k2 = next($old2) ? key($old2) : null;$/;"	v
+key	dbfiller.c	/^    char *key;$/;"	m	struct:_kval	file:
+kval	dbfiller.c	/^}kval;$/;"	t	typeref:struct:_kval	file:
+l1	run-tests.php	/^			$l1 = $k1;$/;"	v
+l2	run-tests.php	/^			$l2 = $k2;$/;"	v
+last	run-tests.php	/^				$last = 1;$/;"	v
+last	run-tests.php	/^				$last = 2;$/;"	v
+ldd	run-tests.php	/^				$ldd = shell_exec("ldd $php 2>\/dev\/null");$/;"	v
+ldd	run-tests.php	/^			$ldd = $autoconf = $sys_libtool = $libtool = $compiler = 'N\/A';$/;"	v
+le_dbfiller	dbfiller.c	/^static int le_dbfiller;$/;"	v	file:
+le_dbfiller	dbfiller_1.c	/^static int le_dbfiller;$/;"	v	file:
+le_dbfiller	dbfiller_2.c	/^static int le_dbfiller;$/;"	v	file:
+le_result_des	dbfiller.c	/^static int le_sample_descriptor,le_result_des;$/;"	v	file:
+le_result_des	dbfiller_1.c	/^static int le_sample_descriptor,le_result_des;$/;"	v	file:
+le_result_des	dbfiller_2.c	/^static int le_sample_descriptor,le_result_des;$/;"	v	file:
+le_sample_descriptor	dbfiller.c	/^static int le_sample_descriptor,le_result_des;$/;"	v	file:
+le_sample_descriptor	dbfiller_1.c	/^static int le_sample_descriptor,le_result_des;$/;"	v	file:
+le_sample_descriptor	dbfiller_2.c	/^static int le_sample_descriptor,le_result_des;$/;"	v	file:
+leak_check	run-tests.php	/^					$leak_check = true;$/;"	v
+leak_check	run-tests.php	/^$leak_check = false;$/;"	v
+leaked	run-tests.php	/^		$leaked = filesize($memcheck_filename) > 0;$/;"	v
+leaked	run-tests.php	/^	$leaked = false;$/;"	v
+len	run-tests.php	/^				$len = strlen($value);$/;"	v
+length	dbfiller.c	/^    int length;$/;"	m	struct:_type_param_entry	file:
+length	run-tests.php	/^			$length = strlen($wanted_re);$/;"	v
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libtool	run-tests.php	/^				$libtool = shell_exec($CUR_DIR . '\/libtool --version');$/;"	v
+line	run-tests.php	/^				$line = explode(':', $line, 2);$/;"	v
+line	run-tests.php	/^			$line = fread($pipes[1], 8192);$/;"	v
+line	run-tests.php	/^		$line = fgets($fp);$/;"	v
+line_length	run-tests.php	/^	$line_length = strlen($str);$/;"	v
+lines	run-tests.php	/^		$lines = preg_split("\/[\\n\\r]+\/", $section_text['EXPECTHEADERS']);$/;"	v
+loaded	run-tests.php	/^		$loaded = explode(",", `$php -n -r 'echo join(",", get_loaded_extensions());'`);$/;"	v
+log_filename	run-tests.php	/^	$log_filename      = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'log';$/;"	v
+log_format	run-tests.php	/^	$log_format = 'LEODS';$/;"	v
+log_format	run-tests.php	/^	$log_format = strtoupper(getenv('TEST_PHP_LOG_FORMAT'));$/;"	v
+logname	run-tests.php	/^	$logname  = realpath($logname);$/;"	v
+mail_qa_team	run-tests.php	/^function mail_qa_team($data, $compression, $status = false)$/;"	f
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	mysql_test.c	/^void main(void)$/;"	f
+main_file_name	run-tests.php	/^	$main_file_name = basename($file,'phpt');$/;"	v
+matches	run-tests.php	/^							$matches = array();$/;"	v
+max	dbfiller.c	/^    int max;$/;"	m	struct:_type_param_entry	file:
+mem	run-tests.php	/^			$mem = "&nbsp;";$/;"	v
+mem	run-tests.php	/^			$mem = "<a href='$url'>leaks<\/a>";$/;"	v
+memcheck_filename	run-tests.php	/^	$memcheck_filename = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'mem';$/;"	v
+message	run-tests.php	/^				$message = !empty($m[1]) ? $m[1] : '';$/;"	v
+message	run-tests.php	/^		$message = "ext\/zlib required";$/;"	v
+min	dbfiller.c	/^    int min;$/;"	m	struct:_type_param_entry	file:
+mkinstalldirs	Makefile	/^mkinstalldirs = $(top_srcdir)\/build\/shtool mkdir -p$/;"	m
+module	dbfiller.php	/^$module = 'dbfiller';$/;"	v
+n	run-tests.php	/^		$n = @stream_select($r, $w, $e, $timeout);$/;"	v
+n_total	run-tests.php	/^	$n_total = count($test_results);$/;"	v
+name	run-tests.php	/^				$name = $name[0];$/;"	v
+name	run-tests.php	/^			$name = trim($setting[0]);$/;"	v
+no_clean	run-tests.php	/^					$no_clean = true;$/;"	v
+no_clean	run-tests.php	/^$no_clean = false;$/;"	v
+o	run-tests.php	/^	$o = explode("\\n", $output);$/;"	v
+o	run-tests.php	/^	$o = opendir($dir) or error("cannot open directory: $dir");$/;"	v
+old1	run-tests.php	/^	$old1 = array();$/;"	v
+old2	run-tests.php	/^	$old2 = array();$/;"	v
+old_php	run-tests.php	/^				$old_php = $php;$/;"	v
+old_php	run-tests.php	/^			$old_php = $php;$/;"	v
+optionals	run-tests.php	/^$optionals = array('tests', 'ext', 'Zend', 'ZendEngine2', 'sapi\/cli', 'sapi\/cgi');$/;"	v
+org_file	run-tests.php	/^	$org_file = $file;$/;"	v
+org_headers	run-tests.php	/^		$org_headers = $headers;$/;"	v
+out	run-tests.php	/^	$out = system_with_timeout($cmd, $env, isset($section_text['STDIN']) ? $section_text['STDIN'] : null);$/;"	v
+output	run-tests.php	/^			$output = system_with_timeout("$extra $php $pass_options -q $ini_settings -d display_errors=0 \\"$test_skipif\\"", $env);$/;"	v
+output	run-tests.php	/^		$output = $output_headers . "\\n--HEADERS--\\n" . $output;$/;"	v
+output	run-tests.php	/^		$output = trim($match[2]);$/;"	v
+output	run-tests.php	/^	$output = preg_replace("\/\\r\\n\/", "\\n", trim($out));$/;"	v
+output_file	run-tests.php	/^					$output_file = $argv[++$i];$/;"	v
+output_file	run-tests.php	/^	$output_file = 'compress.zlib:\/\/' . $output_file . '.gz';$/;"	v
+output_file	run-tests.php	/^$output_file = $CUR_DIR . '\/php_test_results_' . date('Ymd_Hi') . '.txt';$/;"	v
+output_filename	run-tests.php	/^	$output_filename   = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'out';$/;"	v
+output_headers	run-tests.php	/^		$output_headers = array();$/;"	v
+output_headers	run-tests.php	/^		$output_headers = join("\\n", $output_headers);$/;"	v
+output_type	run-tests.php	/^		$output_type = $type . 'ED';$/;"	v
+output_type	run-tests.php	/^		$output_type = $type[0] . 'ED';$/;"	v
+pass_option_n	run-tests.php	/^					$pass_option_n = true;$/;"	v
+pass_option_n	run-tests.php	/^$pass_option_n = false;$/;"	v
+pass_options	run-tests.php	/^$pass_options = '';$/;"	v
+passed	run-tests.php	/^			$passed = true;$/;"	v
+passed	run-tests.php	/^		$passed = false;$/;"	v
+passed	run-tests.php	/^	$passed = false;$/;"	v
+path	run-tests.php	/^		$path = $url_bits['host'].$url_bits['path'];$/;"	v
+path	run-tests.php	/^		$path = $url_bits['path'];$/;"	v
+pattern_match	run-tests.php	/^					$pattern_match = glob($argv[$i] . '.phpt');$/;"	v
+pattern_match	run-tests.php	/^					$pattern_match = glob($argv[$i]);$/;"	v
+percent_results	run-tests.php	/^	$percent_results = array();$/;"	v
+php	run-tests.php	/^						$php = PHP_BINARY;$/;"	v
+php	run-tests.php	/^					$php = $argv[++$i];$/;"	v
+php	run-tests.php	/^					$php = $old_php;$/;"	v
+php	run-tests.php	/^				$php = $old_php;$/;"	v
+php	run-tests.php	/^				$php = realpath(".\/sapi\/cgi\/php-cgi") . ' -C ';$/;"	v
+php	run-tests.php	/^				$php = realpath(dirname($php) . "\/..\/..\/sapi\/cgi\/php-cgi") . ' -C ';$/;"	v
+php	run-tests.php	/^				$php = realpath(dirname($php) . "\/php-cgi") . ' -C ';$/;"	v
+php	run-tests.php	/^			$php = $php_cgi . ' -C ';$/;"	v
+php	run-tests.php	/^			$php = realpath(dirname($php) . "\/php-cgi.exe") . ' -C ';$/;"	v
+php	run-tests.php	/^		$php = $cwd . '\/sapi\/cli\/php';$/;"	v
+php	run-tests.php	/^		$php = $old_php;$/;"	v
+php	run-tests.php	/^	$php = getenv('TEST_PHP_EXECUTABLE');$/;"	v
+php	run-tests.php	/^$php = null;$/;"	v
+php_cgi	run-tests.php	/^				$php_cgi = null;$/;"	v
+php_cgi	run-tests.php	/^			$php_cgi = $cwd . '\/sapi\/cgi\/php-cgi';$/;"	v
+php_cgi	run-tests.php	/^		$php_cgi = $cwd . '\/sapi\/cgi\/php-cgi';$/;"	v
+php_cgi	run-tests.php	/^		$php_cgi = $env['TEST_PHP_CGI_EXECUTABLE'];$/;"	v
+php_cgi	run-tests.php	/^	$php_cgi = getenv('TEST_PHP_CGI_EXECUTABLE');$/;"	v
+php_cgi	run-tests.php	/^$php_cgi = null;$/;"	v
+php_cgi_info	run-tests.php	/^		$php_cgi_info = "$php_info_sep\\nPHP         : $php_cgi $php_info_cgi$php_info_sep";$/;"	v
+php_cgi_info	run-tests.php	/^		$php_cgi_info = '';$/;"	v
+php_foreach_hash	dbfiller.c	/^void php_foreach_hash(HashTable *arrht)$/;"	f
+php_foreach_hash_inner	dbfiller.c	/^void php_foreach_hash_inner(HashTable *arrht,char *key,uint keylen)$/;"	f
+php_info	run-tests.php	/^	$php_info = '<?php echo "$/;"	v
+php_info	run-tests.php	/^	$php_info = `$php $pass_options $info_params "$info_file"`;$/;"	v
+php_info_cgi	run-tests.php	/^		$php_info_cgi = `$php_cgi $pass_options $info_params -q "$info_file"`;$/;"	v
+php_info_sep	run-tests.php	/^		$php_info_sep = "\\n---------------------------------------------------------------------";$/;"	v
+php_mysql_conn	dbfiller.c	/^} php_mysql_conn;$/;"	t	typeref:struct:_php_mysql_conn	file:
+php_mysql_conn	dbfiller_2.c	/^} php_mysql_conn;$/;"	t	typeref:struct:_php_mysql_conn	file:
+php_next_val	dbfiller.c	/^kval* php_next_val(HashTable *arrht)$/;"	f
+php_version	run-tests.php	/^	$php_version = urlencode(TESTED_PHP_VERSION);$/;"	v
+phpext_dbfiller_ptr	php_dbfiller.h	25;"	d
+phpincludedir	Makefile	/^phpincludedir = \/usr\/local\/php\/include\/php$/;"	m
+phplibdir	Makefile	/^phplibdir = \/root\/php54\/ext\/dbfiller\/modules$/;"	m
+port	run-tests.php	/^		$port = $proxy['port'];$/;"	v
+port	run-tests.php	/^		$port = empty($url_bits['port']) ? 80 : $port = $url_bits['port'];$/;"	v
+post	run-tests.php	/^		$post = trim($section_text['POST']);$/;"	v
+post	run-tests.php	/^		$post = trim($section_text['POST_RAW']);$/;"	v
+post	run-tests.php	/^		$post = trim($section_text['PUT']);$/;"	v
+post	run-tests.php	/^        $post = gzcompress($post, 9);$/;"	v
+post	run-tests.php	/^        $post = gzencode($post, 9, FORCE_GZIP);$/;"	v
+post	run-tests.php	/^        $post = trim($section_text['DEFLATE_POST']);$/;"	v
+post	run-tests.php	/^        $post = trim($section_text['GZIP_POST']);$/;"	v
+prefix	Makefile	/^prefix = \/usr\/local\/php$/;"	m
+proc	run-tests.php	/^	$proc = proc_open($commandline, array($/;"	v
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+proxy	run-tests.php	/^		$proxy = parse_url($proxy);$/;"	v
+query_string	run-tests.php	/^		$query_string = '';$/;"	v
+query_string	run-tests.php	/^		$query_string = trim($section_text['GET']);$/;"	v
+r	run-tests.php	/^			$r = "%r";$/;"	v
+r	run-tests.php	/^		$r = $pipes;$/;"	v
+r	run-tests.php	/^	$r = is_null($wanted_re) ? $w : explode("\\n", $wanted_re);$/;"	v
+raw_lines	run-tests.php	/^		$raw_lines = explode("\\n", $post);$/;"	v
+redir_tests	run-tests.php	/^$redir_tests = array();$/;"	v
+redirenv	run-tests.php	/^			$redirenv = array_merge($environment, $IN_REDIRECT['ENV']);$/;"	v
+repeat	run-tests.php	/^						$repeat = true;$/;"	v
+repeat	run-tests.php	/^			$repeat = false;$/;"	v
+repeat	run-tests.php	/^		$repeat = substr($argv[$i],0,1) == '-';$/;"	v
+replace_count	run-tests.php	/^					$replace_count = 0;$/;"	v
+request	run-tests.php	/^		$request = '';$/;"	v
+result	run-tests.php	/^		$result = run_test($php, $name, $env);$/;"	v
+result	run-tests.php	/^    $result = sprintf($/;"	v
+rh	run-tests.php	/^		$rh = preg_split("\/[\\n\\r]+\/", $match[1]);$/;"	v
+run_all_tests	run-tests.php	/^function run_all_tests($test_files, $env, $redir_tested = null)$/;"	f
+run_test	run-tests.php	/^function run_test($php, $file, $env)$/;"	f
+save_or_mail_results	run-tests.php	/^function save_or_mail_results()$/;"	f
+save_text	run-tests.php	/^function save_text($filename, $text, $filename_copy = null)$/;"	f
+secdone	run-tests.php	/^			$secdone = false;$/;"	v
+secdone	run-tests.php	/^			$secdone = true;$/;"	v
+secdone	run-tests.php	/^	$secdone = false;$/;"	v
+secfile	run-tests.php	/^			$secfile = $section == 'FILE' || $section == 'FILEEOF' || $section == 'FILE_EXTERNAL';$/;"	v
+secfile	run-tests.php	/^	$secfile = false;$/;"	v
+section	run-tests.php	/^			$section = $r[1];$/;"	v
+section	run-tests.php	/^			$section = strtoupper($file);$/;"	v
+section	run-tests.php	/^	$section = 'TEST';$/;"	v
+section_text	run-tests.php	/^	$section_text = array('TEST' => '');$/;"	v
+sep	run-tests.php	/^			$sep = "\\n" . str_repeat('=', 80) . "\\n";$/;"	v
+setting	run-tests.php	/^			$setting = explode("=", $setting, 2);$/;"	v
+settings	run-tests.php	/^	$settings = '';$/;"	v
+settings2array	run-tests.php	/^function settings2array($settings, &$ini_settings)$/;"	f
+settings2params	run-tests.php	/^function settings2params(&$ini_settings)$/;"	f
+sh_filename	run-tests.php	/^	$sh_filename       = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'sh';$/;"	v
+shared_objects_dbfiller	Makefile	/^shared_objects_dbfiller = dbfiller.lo$/;"	m
+shortname	run-tests.php	/^	$shortname = str_replace($cwd . '\/', '', $file);$/;"	v
+show_end	run-tests.php	/^function show_end($end_time)$/;"	f
+show_file_block	run-tests.php	/^function show_file_block($file, $block, $section = null)$/;"	f
+show_redirect_ends	run-tests.php	/^function show_redirect_ends($tests, $tested, $tested_file)$/;"	f
+show_redirect_start	run-tests.php	/^function show_redirect_start($tests, $tested, $tested_file)$/;"	f
+show_result	run-tests.php	/^function show_result($result, $tested, $tested_file, $extra = '', $temp_filenames = null)$/;"	f
+show_start	run-tests.php	/^function show_start($start_time)$/;"	f
+show_summary	run-tests.php	/^function show_summary()$/;"	f
+show_test	run-tests.php	/^function show_test($test_idx, $shortname)$/;"	f
+shtool_exit	build/shtool	/^shtool_exit () {$/;"	f
+skip_ext	run-tests.php	/^			$skip_ext = ($is_ext_dir && !in_array(strtolower($name), $exts_to_test));$/;"	v
+srcdir	Makefile	/^srcdir = \/root\/php54\/ext\/dbfiller$/;"	m
+st	run-tests.php	/^		$st = $steps \/ 2;$/;"	v
+st	run-tests.php	/^		$st = $steps;$/;"	v
+start	run-tests.php	/^					$start = $end = $length;$/;"	v
+start	run-tests.php	/^				$start = strpos($wanted_re, $r, $startOffset);$/;"	v
+start	run-tests.php	/^	$start = $JUNIT['files'][$file_name]['start'];$/;"	v
+startOffset	run-tests.php	/^				$startOffset = $end + 2;$/;"	v
+startOffset	run-tests.php	/^			$startOffset = 0;$/;"	v
+start_time	run-tests.php	/^		$start_time = time();$/;"	v
+start_time	run-tests.php	/^$start_time = time();$/;"	v
+started	run-tests.php	/^			$started = true;$/;"	v
+started	run-tests.php	/^		$started = false;$/;"	v
+stat	run-tests.php	/^	$stat = proc_get_status($proc);$/;"	v
+status	run-tests.php	/^				$status = "failed";$/;"	v
+status	run-tests.php	/^				$status = "success";$/;"	v
+str	dbfiller.php	/^	$str = "Module $module is not compiled into PHP";$/;"	v
+str	dbfiller.php	/^	$str = $function($module);$/;"	v
+str	run-tests.php	/^	$str = "TEST $test_idx\/$test_cnt [$shortname]\\r";$/;"	v
+suite	run-tests.php	/^		$suite = junit_get_suitename_for($file_name);$/;"	v
+suite	run-tests.php	/^	$suite = $suite_name ? $JUNIT['suites'][$suite_name] : $JUNIT;$/;"	v
+suite	run-tests.php	/^	$suite = junit_get_suitename_for($file_name);$/;"	v
+sum_results	run-tests.php	/^	$sum_results = array($/;"	v
+summary	run-tests.php	/^	$summary = '';$/;"	v
+switch	run-tests.php	/^					$switch = $argv[$i];$/;"	v
+switch	run-tests.php	/^				$switch = substr($argv[$i],1,1);$/;"	v
+switch	run-tests.php	/^		$switch = substr($argv[$i],1,1);$/;"	v
+sys_libtool	run-tests.php	/^					$sys_libtool = shell_exec(str_replace("\\n", "", $sys_libtool_path) . ' --version');$/;"	v
+sys_libtool_path	run-tests.php	/^				$sys_libtool_path = shell_exec(__DIR__ . '\/build\/shtool path glibtool libtool');$/;"	v
+system_with_timeout	run-tests.php	/^function system_with_timeout($commandline, $env = null, $stdin = null)$/;"	f
+ta	run-tests.php	/^	$ta = strpos($a, "{$cwd}\/tests") === 0 ? 1 + (strpos($a, "{$cwd}\/tests\/run-test") === 0 ? 1 : 0) : 0;$/;"	v
+tb	run-tests.php	/^	$tb = strpos($b, "{$cwd}\/tests") === 0 ? 1 + (strpos($b, "{$cwd}\/tests\/run-test") === 0 ? 1 : 0) : 0;$/;"	v
+temp	run-tests.php	/^					$temp = $temp . '(' . substr($wanted_re, $start+2, ($end - $start-2)). ')';$/;"	v
+temp	run-tests.php	/^				$temp = $temp . preg_quote(substr($wanted_re, $startOffset, ($start - $startOffset)),  '\/');$/;"	v
+temp	run-tests.php	/^			$temp = "";$/;"	v
+temp	run-tests.php	/^		$temp = array_intersect(array('XFAIL', 'FAIL'), $type);$/;"	v
+temp_clean	run-tests.php	/^	$temp_clean        = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'clean.php';$/;"	v
+temp_dir	run-tests.php	/^		$temp_dir = $test_dir = $IN_REDIRECT['dir'];$/;"	v
+temp_dir	run-tests.php	/^		$temp_dir = $test_dir = realpath(dirname($file));$/;"	v
+temp_dir	run-tests.php	/^		$temp_dir = str_replace($temp_source, $temp_target, $temp_dir);$/;"	v
+temp_file	run-tests.php	/^	$temp_file         = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'php';$/;"	v
+temp_filenames	run-tests.php	/^		$temp_filenames = array($/;"	v
+temp_filenames	run-tests.php	/^	$temp_filenames = null;$/;"	v
+temp_skipif	run-tests.php	/^	$temp_skipif       = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'skip.php';$/;"	v
+temp_source	run-tests.php	/^					$temp_source = $argv[++$i];$/;"	v
+temp_source	run-tests.php	/^$temp_source = null;$/;"	v
+temp_target	run-tests.php	/^					$temp_target = $argv[++$i];$/;"	v
+temp_target	run-tests.php	/^$temp_target = null;$/;"	v
+temp_urlbase	run-tests.php	/^						$temp_urlbase = $temp_target;$/;"	v
+temp_urlbase	run-tests.php	/^					$temp_urlbase = $argv[++$i];$/;"	v
+temp_urlbase	run-tests.php	/^$temp_urlbase = null;$/;"	v
+test_clean	run-tests.php	/^	$test_clean        = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'clean.php';$/;"	v
+test_cnt	run-tests.php	/^	$test_cnt = count($test_files);$/;"	v
+test_cnt	run-tests.php	/^$test_cnt = count($test_files);$/;"	v
+test_dirs	run-tests.php	/^$test_dirs = array();$/;"	v
+test_file	run-tests.php	/^	$test_file         = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'php';$/;"	v
+test_files	run-tests.php	/^					$test_files = array_merge($test_files, $pattern_match);$/;"	v
+test_files	run-tests.php	/^		$test_files = array();$/;"	v
+test_files	run-tests.php	/^	$test_files = array_merge($test_files, $redir_tests);$/;"	v
+test_files	run-tests.php	/^	$test_files = array_unique($test_files);$/;"	v
+test_files	run-tests.php	/^$test_files = array();$/;"	v
+test_files	run-tests.php	/^$test_files = array_unique($test_files);$/;"	v
+test_idx	run-tests.php	/^		$test_idx = 0;$/;"	v
+test_idx	run-tests.php	/^$test_idx = 0;$/;"	v
+test_list	run-tests.php	/^					$test_list = file($argv[++$i]);$/;"	v
+test_name	run-tests.php	/^function test_name($name)$/;"	f
+test_results	run-tests.php	/^$test_results = array();$/;"	v
+test_skipif	run-tests.php	/^	$test_skipif       = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'skip.php';$/;"	v
+test_sort	run-tests.php	/^function test_sort($a, $b)$/;"	f
+tested	run-tests.php	/^			$tested = "<a href='$url'>$tested<\/a>";$/;"	v
+tested	run-tests.php	/^		$tested = $IN_REDIRECT['prefix'] . ' ' . trim($section_text['TEST']);$/;"	v
+tested	run-tests.php	/^	$tested = trim($section_text['TEST']);$/;"	v
+tested_file	run-tests.php	/^		$tested_file = $tmp_relative_file;$/;"	v
+tested_file	run-tests.php	/^	$tested_file = $shortname;$/;"	v
+testfile	run-tests.php	/^				$testfile = realpath("{$dir}\/{$name}");$/;"	v
+testfile	run-tests.php	/^			$testfile = realpath($argv[$i]);$/;"	v
+testname	run-tests.php	/^	$testname = realpath($testname);$/;"	v
+time	run-tests.php	/^	$time = null !== $time ? $time : junit_get_timer($file_name);$/;"	v
+timeout	run-tests.php	/^	$timeout = $leak_check ? 300 : (isset($env['TEST_TIMEOUT']) ? $env['TEST_TIMEOUT'] : 60);$/;"	v
+tmp_post	run-tests.php	/^	$tmp_post          = $temp_dir . DIRECTORY_SEPARATOR . uniqid('\/phpt.');$/;"	v
+tmp_relative_file	run-tests.php	/^	$tmp_relative_file = str_replace(__DIR__ . DIRECTORY_SEPARATOR, '', $test_file) . 't';$/;"	v
+top_builddir	Makefile	/^top_builddir = \/root\/php54\/ext\/dbfiller$/;"	m
+top_srcdir	Makefile	/^top_srcdir = \/root\/php54\/ext\/dbfiller$/;"	m
+tpa_len	dbfiller.c	/^int tpa_len = 0;$/;"	v
+tpa_p	dbfiller.c	/^type_param_entry* tpa_p[20];$/;"	v
+type	dbfiller.c	/^    char *type;$/;"	m	struct:_type_param_entry	file:
+type	run-tests.php	/^		$type = reset($temp);$/;"	v
+type_param_entry	dbfiller.c	/^}type_param_entry;$/;"	t	typeref:struct:_type_param_entry	file:
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['diff']);$/;"	v
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['file']);$/;"	v
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['mem']);$/;"	v
+url	run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['skip']);$/;"	v
+url_bits	run-tests.php	/^	$url_bits = parse_url(QA_SUBMISSION_PAGE);$/;"	v
+user_email	run-tests.php	/^				$user_email = str_replace("@", " at ", str_replace(".", " dot ", $user_email));$/;"	v
+user_email	run-tests.php	/^				$user_email = trim(fgets($fp, 1024));$/;"	v
+user_input	run-tests.php	/^				$user_input = 's';$/;"	v
+user_input	run-tests.php	/^		$user_input = fgets($fp, 10);$/;"	v
+user_tests	run-tests.php	/^	$user_tests = array();$/;"	v
+user_tests	run-tests.php	/^	$user_tests = explode (',', getenv('TEST_PHP_USER'));$/;"	v
+util_lower	build/shtool	/^util_lower () {$/;"	f
+util_upper	build/shtool	/^util_upper () {$/;"	f
+val	dbfiller.c	/^    char *val;$/;"	m	struct:_kval	file:
+val	run-tests.php	/^				$val = addslashes($val);$/;"	v
+valgrind_cmd	run-tests.php	/^					$valgrind_cmd = "valgrind --version";$/;"	v
+valgrind_header	run-tests.php	/^						$valgrind_header = trim($valgrind_header);$/;"	v
+valgrind_header	run-tests.php	/^					$valgrind_header = system_with_timeout($valgrind_cmd, $environment);$/;"	v
+valgrind_header	run-tests.php	/^$valgrind_header = '';$/;"	v
+valgrind_version	run-tests.php	/^						$valgrind_version = preg_replace("\/valgrind-(\\d+)\\.(\\d+)\\.(\\d+)([.\\w_-]+)?(\\s+)\/", '$1.$2.$3', $valgrind_header, 1, $replace_count);$/;"	v
+valgrind_version	run-tests.php	/^$valgrind_version = 0;$/;"	v
+value	run-tests.php	/^				$value = addslashes($value);$/;"	v
+value	run-tests.php	/^			$value = trim($setting[1]);$/;"	v
+verify_config	run-tests.php	/^function verify_config()$/;"	f
+w	run-tests.php	/^		$w = null;$/;"	v
+w	run-tests.php	/^	$w = explode("\\n", $wanted);$/;"	v
+want	run-tests.php	/^		$want = array();$/;"	v
+wanted	run-tests.php	/^			$wanted = trim($section_text['EXPECTF']);$/;"	v
+wanted	run-tests.php	/^			$wanted = trim($section_text['EXPECTREGEX']);$/;"	v
+wanted	run-tests.php	/^		$wanted = $wanted_headers . "\\n--HEADERS--\\n" . $wanted;$/;"	v
+wanted	run-tests.php	/^		$wanted = preg_replace('\/\\r\\n\/',"\\n", $wanted);$/;"	v
+wanted	run-tests.php	/^		$wanted = trim($section_text['EXPECT']);$/;"	v
+wanted_headers	run-tests.php	/^		$wanted_headers = array();$/;"	v
+wanted_headers	run-tests.php	/^		$wanted_headers = join("\\n", $wanted_headers);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = $temp;$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = preg_quote($wanted_headers . "\\n--HEADERS--\\n", '\/') . $wanted_re;$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace($/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%A', '.*', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%S', '[^\\r\\n]*', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%a', '.+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%c', '.', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%d', '\\d+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%e', '\\\\' . DIRECTORY_SEPARATOR, $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%f', '[+-]?\\.?\\d+\\.?\\d*(?:[Ee][+-]?\\d+)?', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%i', '[+-]?\\d+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%s', '[^\\r\\n]+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%w', '\\s*', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^			$wanted_re = str_replace('%x', '[0-9a-fA-F]+', $wanted_re);$/;"	v
+wanted_re	run-tests.php	/^		$wanted_re = null;$/;"	v
+wanted_re	run-tests.php	/^		$wanted_re = preg_replace('\/\\r\\n\/', "\\n", $wanted);$/;"	v
+warn	run-tests.php	/^					$warn = true; \/* only if there is a reason *\/$/;"	v
+warn	run-tests.php	/^					$warn = true;$/;"	v
+warn	run-tests.php	/^	$warn = false;$/;"	v
+write_information	run-tests.php	/^function write_information($show_html)$/;"	f
+x_failed	run-tests.php	/^		$x_failed = (100.0 * $sum_results['FAILED']) \/ $x_total;$/;"	v
+x_leaked	run-tests.php	/^		$x_leaked = (100.0 * $sum_results['LEAKED']) \/ $x_total;$/;"	v
+x_passed	run-tests.php	/^		$x_passed = (100.0 * $sum_results['PASSED']) \/ $x_total;$/;"	v
+x_total	run-tests.php	/^	$x_total = $n_total - $sum_results['SKIPPED'] - $sum_results['BORKED'];$/;"	v
+x_warned	run-tests.php	/^		$x_warned = $x_failed = $x_passed = $x_leaked = $x_xfailed = 0;$/;"	v
+x_warned	run-tests.php	/^		$x_warned = (100.0 * $sum_results['WARNED']) \/ $x_total;$/;"	v
+x_xfailed	run-tests.php	/^		$x_xfailed = (100.0 * $sum_results['XFAILED']) \/ $x_total;$/;"	v
+xml	run-tests.php	/^	$xml = '<?xml version="1.0" encoding="UTF-8"?>'. PHP_EOL .$/;"	v

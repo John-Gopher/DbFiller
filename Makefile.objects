@@ -1,0 +1,8 @@
+dbfiller.lo: /root/php54/ext/dbfiller/dbfiller.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/root/php54/ext/dbfiller $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /root/php54/ext/dbfiller/dbfiller.c -o dbfiller.lo 
+$(phplibdir)/dbfiller.la: ./dbfiller.la
+	$(LIBTOOL) --mode=install cp ./dbfiller.la $(phplibdir)
+
+./dbfiller.la: $(shared_objects_dbfiller) $(DBFILLER_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_dbfiller) $(DBFILLER_SHARED_LIBADD)
+
