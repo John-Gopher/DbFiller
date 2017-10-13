@@ -104,7 +104,12 @@ char *getRandomStr(int n){
     for( i = 0 ; i < n ; i++ ) {  
         int randval = rand()+ time(NULL); 
         randval = randval<0 ? -randval : randval;
-        str[i] =  randval% 94+33;
+        randval =  randval% 94+33;
+        if(randval == 39 || randval == 96 || randval == 47 || randval == 34 || randval == 92){
+            i--;
+            continue;
+        }
+        str[i] =  randval;
     }   
     str[n] = '\0';
     return str;
@@ -359,7 +364,17 @@ PHP_METHOD(dbfiller,run) {
             strcat(DBFILLER_G(aftersql),tmpsplit);
         }
     }
-    php_printf("sql:%s%s\n",DBFILLER_G(beforesql),DBFILLER_G(aftersql));
+    char* tmpsql = emalloc(sizeof(DBFILLER_G(beforesql))+sizeof(DBFILLER_G(aftersql))+1);
+    sprintf(tmpsql,"%s%s",DBFILLER_G(beforesql),DBFILLER_G(aftersql));
+    php_printf("sql:-------%s------\n",tmpsql);
+    php_mysql_conn *mysql;
+    mysql = (php_mysql_conn *) emalloc(sizeof(php_mysql_conn));
+    zval *conn  = zend_read_property(dbfiller_ce, getThis(), "conn", sizeof("conn")-1, 0 TSRMLS_DC);
+    ZEND_FETCH_RESOURCE(mysql,php_mysql_conn*,&conn,-1,PHP_MY_RES_NAME,le_sample_descriptor);
+    if( mysql_real_query(&mysql->conn,DBFILLER_G(beforesql),strlen(DBFILLER_G(beforesql))) != 0){
+         php_printf("mysql insert  error!\n");
+    }
+
     RETURN_NULL();
 }
 /*定义构造方法*/
