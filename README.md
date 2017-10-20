@@ -15,16 +15,15 @@ make clean
 
 大概在30几行，修改INCLUDES，添加“-L/usr/local/mysql/lib -I/usr/local/mysql/include”
 
- ```
- ……
- EXTRA_LIBS =
+```
+EXTRA_LIBS =
 INCLUDES = -I/usr/local/php/include/php -L/usr/local/mysql/lib -I/usr/local/mysql/include -lmysqlclient  -I/usr/local/php/include/php/main -I/usr/local/php/include/php/TSRM -I/usr/local/php/include/php/Zend -I/usr/local/php/include/php/ext -I/usr/local/php/include/php/ext/date/lib
 LFLAGS =
 LDFLAGS =
-…… 
- ```
+```
+ 
 ## 开始安装
- ```
+```
 make && make install
 
 ```
